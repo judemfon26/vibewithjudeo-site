@@ -116,7 +116,7 @@ function layout({ urlPath, title, description, body, ogImage, ogType = "website"
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-${is404 ? `<base href="/"><script>if(/\\.github\\.io$/.test(location.hostname))document.querySelector('base').href='/vibewithjudeo-site/';</script>` : ""}
+${is404 ? `<script>document.write('<base href="'+(/\\.github\\.io$/.test(location.hostname)?'/vibewithjudeo-site/':'/')+'">');</script><noscript><base href="/"></noscript>` : ""}
 <title>${esc(title)}</title>
 <meta name="description" content="${esc(description)}">
 ${is404 ? '<meta name="robots" content="noindex">' : `<link rel="canonical" href="${canonical}">`}
@@ -134,7 +134,7 @@ ${is404 ? '<meta name="robots" content="noindex">' : `<link rel="canonical" href
 <link rel="icon" href="${r}favicon.ico" sizes="any">
 <link rel="icon" type="image/png" sizes="32x32" href="${r}img/brand/favicon-32.png">
 <link rel="apple-touch-icon" href="${r}img/brand/apple-touch-icon.png">
-<link rel="preload" href="${r}fonts/cormorant-garamond-600.woff2" as="font" type="font/woff2" crossorigin>
+${is404 ? "" : `<link rel="preload" href="${r}fonts/cormorant-garamond-600.woff2" as="font" type="font/woff2" crossorigin>`}
 <link rel="stylesheet" href="${r}style.css">
 ${extraHead}${jsonld.map((j) => `<script type="application/ld+json">${JSON.stringify(j).replace(/</g, "\\u003c")}</script>`).join("\n")}
 </head>

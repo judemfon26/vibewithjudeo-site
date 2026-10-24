@@ -72,7 +72,7 @@ for (const file of html) {
 
   // internal links
   const base = is404 ? DIST : path.dirname(file);
-  for (const m of src.replace(/<base [^>]*>/, "").matchAll(/\s(?:href|src|srcset)="([^"]+)"/g)) {
+  for (const m of src.replace(/<base [^>]*>/g, "").replace(/<script>document\.write[^<]*<\/script>/, "").matchAll(/\s(?:href|src|srcset)="([^"]+)"/g)) {
     for (let url of m[1].split(",").map((s) => s.trim().split(/\s+/)[0])) {
       if (!url || /^(https?:|mailto:|tel:|#|data:)/.test(url)) continue;
       url = url.split("#")[0].split("?")[0];
