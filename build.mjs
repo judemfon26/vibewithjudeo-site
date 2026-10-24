@@ -116,7 +116,7 @@ function layout({ urlPath, title, description, body, ogImage, ogType = "website"
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-${is404 ? `<script>document.write('<base href="'+(/\\.github\\.io$/.test(location.hostname)?'/vibewithjudeo-site/':'/')+'">');</script><noscript><base href="/"></noscript>` : ""}
+${is404 ? `<script>document.write('<base href="'+(/\\.github\\.io$/.test(location.hostname)?'/vibewithjudeo-site/':'/')+'"><link rel="icon" href="favicon.ico">');</script><noscript><base href="/"></noscript>` : ""}
 <title>${esc(title)}</title>
 <meta name="description" content="${esc(description)}">
 ${is404 ? '<meta name="robots" content="noindex">' : `<link rel="canonical" href="${canonical}">`}
@@ -131,11 +131,11 @@ ${is404 ? '<meta name="robots" content="noindex">' : `<link rel="canonical" href
 <meta name="twitter:description" content="${esc(description)}">
 <meta name="twitter:image" content="${img}">
 <meta name="theme-color" content="#F4F1EB">
-<link rel="icon" href="${r}favicon.ico" sizes="any">
+${is404 ? `<style>${fs.readFileSync(path.join(ROOT, "static/style.css"), "utf8")}</style>` : `<link rel="icon" href="${r}favicon.ico" sizes="any">
 <link rel="icon" type="image/png" sizes="32x32" href="${r}img/brand/favicon-32.png">
 <link rel="apple-touch-icon" href="${r}img/brand/apple-touch-icon.png">
-${is404 ? "" : `<link rel="preload" href="${r}fonts/cormorant-garamond-600.woff2" as="font" type="font/woff2" crossorigin>`}
-<link rel="stylesheet" href="${r}style.css">
+<link rel="preload" href="${r}fonts/cormorant-garamond-600.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="${r}style.css">`}
 ${extraHead}${jsonld.map((j) => `<script type="application/ld+json">${JSON.stringify(j).replace(/</g, "\\u003c")}</script>`).join("\n")}
 </head>
 <body>
