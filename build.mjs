@@ -51,7 +51,7 @@ const isoDuration = (s) => {
   return `PT${h ? h + "H" : ""}${m ? m + "M" : ""}${sec}S`;
 };
 const minutes = (s) => `${Math.round(s / 60)} min`;
-const TOPIC = { expedition: "Expedition", disaster: "Disaster", mystery: "Mystery", money: "Money", people: "Profile", "true-crime": "True crime", ocean: "Ocean", mountains: "Mountains", science: "Science", history: "History" };
+const TOPIC = { expedition: "Expedition", disaster: "Disaster", mystery: "Mystery", money: "Money", people: "People", "true-crime": "True crime", ocean: "Ocean", mountains: "Mountains", science: "Science", history: "History" };
 const shortTitle = (f) => f.h1.replace(/:\s*(The|A) (Tribute )?Documentary$/i, "").replace(/: The Documentary$/i, "");
 const watchUrl = (id, t) => `https://www.youtube.com/watch?v=${id}${t ? `&t=${Math.round(t)}s` : ""}`;
 const abs = (p) => SITE_URL + p;
@@ -98,8 +98,8 @@ const shopBlock = (r) => `<section class="shop-block" aria-labelledby="shop-h">
 
 const subscribeBand = () => `<section class="subscribe-band">
 <p class="label">On YouTube</p>
-<h2>New documentaries every week</h2>
-<p>Every film is free to watch on YouTube. Subscribe so the next one finds you.</p>
+<h2>Every film is free on YouTube</h2>
+<p>Subscribe on YouTube so the next documentary finds you.</p>
 <p><a class="btn" href="${site.subscribeUrl}" rel="noopener">Subscribe on YouTube</a></p>
 </section>`;
 
