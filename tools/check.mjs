@@ -18,7 +18,7 @@ const fail = (file, msg) => errors.push(`${path.relative(DIST, file) || file}: $
 
 const walk = (d) => fs.readdirSync(d, { withFileTypes: true }).flatMap((e) => (e.isDirectory() ? walk(path.join(d, e.name)) : [path.join(d, e.name)]));
 const files = walk(DIST);
-const html = files.filter((f) => f.endsWith(".html"));
+const html = files.filter((f) => f.endsWith(".html") && !/^google[0-9a-f]+\.html$/.test(path.basename(f))); // Search Console verification files are not pages
 const strip = (s) => s.replace(/<script[\s\S]*?<\/script>/g, " ").replace(/<style[\s\S]*?<\/style>/g, " ").replace(/<[^>]+>/g, " ").replace(/&[a-z#0-9]+;/gi, " ");
 const countWords = (s) => strip(s).split(/\s+/).filter((w) => /[A-Za-z0-9]/.test(w)).length;
 const videoIds = new Map(); // id -> files
