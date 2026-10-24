@@ -1,0 +1,13 @@
+{
+  "name": "vibewithjudeo-site",
+  "private": true,
+  "type": "module",
+  "description": "Static site for vibewithjudeo.com (no dependencies)",
+  "scripts": {
+    "build": "node build.mjs",
+    "check": "node tools/check.mjs",
+    "check:live": "node tools/check.mjs --live",
+    "serve": "python3 -m http.server 8080 --directory dist"
+  },
+  "engines": { "node": ">=20" }
+}

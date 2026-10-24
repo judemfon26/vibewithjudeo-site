@@ -1,0 +1,111 @@
+{
+  "id": "VqlVtK8OY2c",
+  "slug": "vancouver-unsold-condos",
+  "h1": "Vancouver's Unsold New Condos: Why Thousands Sit Unbought",
+  "seo_title": "Vancouver's Unsold New Condos Explained | Documentary",
+  "meta_description": "Why Metro Vancouver has a record number of finished, unsold condos: CMHC's count, the $4.5 billion estimates, presales, lender rules and the 2026 B.C. election.",
+  "dek": "A documentary on Metro Vancouver's record stock of finished new condos that nobody has signed to buy: how the count is made, why prices stay high, and what B.C.'s parties propose.",
+  "sections": [
+    {
+      "heading": "The count behind the headline",
+      "paragraphs": [
+        "Canada Mortgage and Housing Corporation (CMHC) counts finished new apartments that nobody has signed to buy. In Metro Vancouver that figure reached 4,470 in June 2026, the highest since the series began in 1990, and was still 4,248 in August. Burnaby had the most, more than 1,100, and the single biggest cluster, 631, was around Metrotown.",
+        "The widely quoted value of about $4.5 billion comes from two private estimates of what the units are worth, not from prices anyone paid. Real Property Data put it at $4.45 billion for about 5,000 units; an internal Rennie report, obtained by The Globe and Mail, put it at $4.35 billion for just under 4,000. \"Unsold\" also does not mean \"empty\": some developers rent units out while they wait for buyers."
+      ]
+    },
+    {
+      "heading": "How the presale model stalled",
+      "paragraphs": [
+        "Most Vancouver towers are sold off floor plans years before completion, with buyers often putting down 10 to 20 per cent, and lenders usually want much of a building presold before funding construction. After the Bank of Canada cut its rate to 0.25 per cent in March 2020, investors bought about half of all presales from 2021 to 2023, according to Rennie. Ten rate rises took the rate to 5 per cent by July 2023, and by early 2025 investors were just 7 per cent of presale buyers. Towers already sold on paper kept rising, and are now finishing into a weaker market."
+      ]
+    },
+    {
+      "heading": "Why prices are slow to fall",
+      "paragraphs": [
+        "The unsold stock skews expensive. Real Property Data's tracking shows about 42 per cent of new condos over 1,500 square feet unsold, against 12 per cent of those under 500. In the City of Vancouver and Burnaby, about four in five unsold new condos were listed above $1 million, in March federal data analysed by Andy Yan of Simon Fraser University. Construction loans, lawyers say, often set a minimum sale price; going below it needs the lender's consent. In West Vancouver's Sanctuary project, according to court filings reported by The Globe and Mail, a lender refused a $30 million sale of 23 units; the parties reportedly settled and none of the claims were tested at trial. Courts have also put the project companies behind Chroma and Joyce 2, not any developer as a whole, into receivership."
+      ]
+    },
+    {
+      "heading": "The plan, and the 24 October election",
+      "bullets": [
+        "18 June 2026: Ottawa and B.C. announced a plan to convert more than 2,200 vacant condos into affordable homes. Critics called it a developer bailout; Premier David Eby said it was not. The buildings involved were never published.",
+        "BC NDP: proposes an Unsold Condo Tax, giving developers a year to sell before a charge The Globe and Mail reported as 2 per cent of assessed value, rising each year a unit stays unsold.",
+        "B.C. Conservatives (interim leader Lorne Doerkson): oppose the tax and promise no new taxes.",
+        "BC Greens (Emily Lowan): no condo tax; criticise what they call a developer bailout and promise to restart community housing funding.",
+        "This film does not endorse any party."
+      ]
+    },
+    {
+      "heading": "What happens next",
+      "paragraphs": [
+        "Builders have pulled back: condo starts in Metro Vancouver fell about 40 per cent in the first half of 2026, the weakest first half since 2011, according to CMHC. Canada's ban on foreign home buyers is set to expire in January 2027; as of early October, Ottawa had not said whether it would be renewed. Figures were checked on 14–15 October 2026."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "label": "CMHC Housing Market Information Portal: completed and unabsorbed units, Vancouver CMA",
+      "url": "https://www03.cmhc-schl.gc.ca/hmip-pimh/en/TableMapChart/Table?TableId=1.2.4&GeographyId=2410&GeographyTypeId=3&DisplayAs=Table&NumberOfPeriods=18"
+    },
+    {
+      "label": "CMHC: housing starts, July 2026",
+      "url": "https://www.cmhc-schl.gc.ca/media-newsroom/news-releases/2026/housing-starts-construction-data-july-2026"
+    },
+    {
+      "label": "The Globe and Mail: value of unsold condos in Metro Vancouver (14 Sep 2026)",
+      "url": "https://www.theglobeandmail.com/real-estate/article-value-of-unsold-condos-in-metro-vancouver-put-at-46-billion/"
+    },
+    {
+      "label": "The Globe and Mail: newly built condos too pricey to sell, CMHC data show (May 2026)",
+      "url": "https://www.theglobeandmail.com/real-estate/vancouver/article-newly-built-condos-in-vancouver-are-too-pricey-to-sell-cmhc-data-show/"
+    },
+    {
+      "label": "The Globe and Mail: a developer agreed to sell 23 condos at a discount; the lender said no (Oct 2026)",
+      "url": "https://www.theglobeandmail.com/real-estate/article-a-developer-agreed-to-sell-23-condos-at-a-discount-the-lender-said-no/"
+    },
+    {
+      "label": "The Globe and Mail: Eby proposes tax on unsold condos (25 Sep 2026)",
+      "url": "https://www.theglobeandmail.com/canada/british-columbia/article-eby-proposes-tax-on-unsold-condos-to-encourage-developers-to-sell/"
+    },
+    {
+      "label": "Vancouver Sun via Yahoo: $4.4 billion worth of condos (15 Sep 2026)",
+      "url": "https://ca.news.yahoo.com/4-4-billion-worth-condos-130017460.html"
+    },
+    {
+      "label": "Greater Vancouver REALTORS: September 2026 statistics",
+      "url": "https://www.gvrealtors.ca/news/apartments-lead-sales-downward"
+    },
+    {
+      "label": "Bank of Canada: policy interest rate",
+      "url": "https://www.bankofcanada.ca/core-functions/monetary-policy/key-interest-rate/"
+    },
+    {
+      "label": "Insolvency Insider: receiver appointed over Westbank Vancouver rental tower project",
+      "url": "https://insolvencyinsider.ca/p/ksv-appointed-receiver-over-westbank-vancouver-rental-tower-project"
+    },
+    {
+      "label": "Insolvency Insider: Vancouver mixed-use project falls into receivership (Chroma)",
+      "url": "https://insolvencyinsider.ca/p/vancouver-mixed-use-project-falls-into-receivership"
+    },
+    {
+      "label": "Office of the Prime Minister: Canada–B.C. partnership (18 Jun 2026)",
+      "url": "https://www.pm.gc.ca/en/news/news-releases/2026/06/18/canada-and-british-columbia-forge-new-partnership-accelerate"
+    },
+    {
+      "label": "BC NDP release (25 Sep 2026)",
+      "url": "https://www.bcndp.ca/releases/eby-turn-more-empty-condos-homes-people-can-afford"
+    },
+    {
+      "label": "Conservative Party of B.C.: statement from interim leader Lorne Doerkson (25 Sep 2026)",
+      "url": "https://conservativebc.ca/statement-from-interim-leader-lorne-doerkson-on-the-ndps-housing-tax-plan/"
+    },
+    {
+      "label": "BC Greens platform (13 Oct 2026)",
+      "url": "https://bcgreens.ca/wp-content/uploads/2026/10/BCG_Platform.pdf"
+    }
+  ],
+  "topics": [
+    "money"
+  ],
+  "related_hint": []
+}

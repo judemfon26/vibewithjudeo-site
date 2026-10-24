@@ -1,0 +1,57 @@
+{
+  "id": "eyxW5XuJMnY",
+  "slug": "congo-basin-whats-real",
+  "h1": "Congo Basin Rainforest, Myth vs Reality: The Documentary",
+  "seo_title": "Congo Basin: Mokele-mbembe, Bili Apes and What's Real",
+  "meta_description": "The Congo Basin's real record-breakers, from the deepest river ever measured to a peatland bigger than England, and the truth about Mokele-mbembe and Bili apes.",
+  "dek": "A documentary on the Congo Basin that sorts legend from evidence, from lion-killing apes and a swamp dinosaur to the river, peat, people, viruses and conflict that are real.",
+  "sections": [
+    {
+      "heading": "The real record-breakers",
+      "paragraphs": [
+        "The Congo River and its tributaries drain about 3.7 million square kilometres, an area bigger than India, and the forest they water is the second-largest tropical rainforest on Earth after the Amazon. In 2008 a team from the US Geological Survey and the American Museum of Natural History took sonar into the rapids below Kinshasa and found stretches more than 200 metres deep, the deepest river ever measured.",
+        "In 2012 the scientists Greta Dargie and Simon Lewis began pulling cores of peat from the swamps of the Cuvette Centrale. A larger study in 2022 put the peatland at about 167,600 square kilometres, holding around 29 billion tonnes of carbon. The forest absorbs roughly 600 million tonnes more carbon dioxide than they release each year, which makes the basin the strongest tropical carbon sink still working."
+      ]
+    },
+    {
+      "heading": "Three legends, checked",
+      "bullets": [
+        "Lion-killing apes. The so-called Bondo or Bili apes of the northern Democratic Republic of the Congo are said online to kill lions. DNA from their dung showed they are eastern chimpanzees, and nobody has ever seen one kill a lion. What sets them apart is culture: long ant-fishing tools, pounded termite mounds and nests on the ground, across more than 50,000 square kilometres.",
+        "The swamp dinosaur. Mokele-mbembe, said to live around Lake Télé in the Republic of the Congo, is a real legend but not a real dinosaur. Expeditions from 1980 onward found no bone or other physical evidence, and the last non-bird dinosaurs died out about 66 million years ago. Surveys of those swamps did turn up something large: about 125,000 gorillas.",
+        "Lost tribes. Survival International counts at least 196 uncontacted peoples on Earth, and none of them is in Africa. The forest peoples of the basin, among them the Baka, BaAka, Mbuti and Batwa, have traded with farming neighbours for centuries. What they have lacked is rights, not contact."
+      ]
+    },
+    {
+      "heading": "Viruses and war",
+      "paragraphs": [
+        "Ebola takes its name from a river near Yambuku, in what was then Zaire, where the first recorded outbreak began in 1976. In May 2026 a new outbreak caused by Bundibugyo virus, for which there is no licensed vaccine or treatment, was declared in Ituri province. As of 6 October 2026, the European Centre for Disease Prevention and Control counted more than 8,700 confirmed cases and more than 4,200 deaths. Malaria still kills more: roughly one in nine malaria deaths worldwide happens in the DRC.",
+        "In the east, the DRC produces roughly half the world's mined tantalum, according to the US Geological Survey. The M23 rebel group has held the Rubaya coltan mine since 2024 and took Goma in January 2025. UN investigators say Rwanda backs M23 with its own troops, which Rwanda disputes. As of October 2026, about six million Congolese were displaced inside their own country, according to the UN."
+      ]
+    },
+    {
+      "heading": "A note on the numbers",
+      "paragraphs": [
+        "The depth figure of more than 200 metres comes from the 2008 USGS survey; Guinness World Records lists at least 220 metres. The peatland, at about 167,600 square kilometres, is bigger than England but smaller than the United Kingdom, while the wider wetland system of roughly 330,000 to 360,000 square kilometres is bigger than the UK. The Ebola figures are ECDC data up to 6 October 2026 and were changing daily. Conflict figures are attributed to the UN and other named sources, and Rwanda disputes the findings of the UN's experts."
+      ]
+    }
+  ],
+  "sources": [
+    {"label": "Science Panel for the Congo Basin: 2025 Congo Basin Assessment Report, executive summary", "url": "https://spcb-unsdsn.s3.us-east-1.amazonaws.com/2025-congo-basin-executive-summary-en.pdf"},
+    {"label": "Dargie et al., Nature (2017): age, extent and carbon storage of the central Congo Basin peatland", "url": "https://research-repository.st-andrews.ac.uk/handle/10023/15215"},
+    {"label": "Crezee et al., Nature Geoscience (2022): peat thickness and carbon stocks of the central Congo Basin", "url": "https://eprints.whiterose.ac.uk/188144"},
+    {"label": "USGS (Oberg et al., 2009): hydraulic measurements of the Lower Congo River", "url": "https://pubs.usgs.gov/publication/70156715"},
+    {"label": "American Museum of Natural History: Congo River fish evolution shaped by intense rapids", "url": "https://www.amnh.org/about/press-center/fish-evolution-shaped-by-intense-rapids"},
+    {"label": "Hicks et al., Folia Primatologica (2019): Bili-Uéré chimpanzee behavioural realm", "url": "https://dare.uva.nl/id/f4bad20e-631d-4552-a64a-3474c08a629a"},
+    {"label": "Strindberg et al. / WCS (2018): gorilla and chimpanzee density in Western Equatorial Africa", "url": "https://congo.wcs.org/Newsroom/ID/25024/Massive-Study-Across-Western-Equatorial-Africa-Finds-More-Gorillas-and-Chimpanzees-Than-Expected-but-80-Are-Outside-the-Safe-Havens-of-Protected-Areas"},
+    {"label": "Survival International (2025): uncontacted peoples report, via Mongabay", "url": "https://news.mongabay.com/2025/10/report-urges-full-protection-of-worlds-196-uncontacted-indigenous-peoples/"},
+    {"label": "Skeptoid #727: Hunting the Mokele-Mbembe (Brian Dunning, 2020)", "url": "https://skeptoid.com/episodes/727"},
+    {"label": "Loxton & Prothero, Abominable Science! (2013), via National Geographic", "url": "https://www.nationalgeographic.com/adventure/article/130907-cryptid-crytozoology-bigfoot-loch-yeti-monster-abominable-science"},
+    {"label": "WWF (2024): New Life in the Congo Basin, species discoveries 2013–2023", "url": "https://www.wwf.org.uk/node/48546"},
+    {"label": "ECDC: Ebola outbreak in the Democratic Republic of the Congo (data to 6 Oct 2026)", "url": "https://www.ecdc.europa.eu/en/ebola-outbreak-democratic-republic-congo-and-uganda"},
+    {"label": "USGS Mineral Commodity Summaries 2026: Tantalum", "url": "https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-tantalum.pdf"},
+    {"label": "UN Group of Experts on the DRC, final report S/2026/466 (Jun 2026)", "url": "https://www.ecoi.net/en/file/local/2142213/n2611394.pdf"},
+    {"label": "OCHA: DRC humanitarian dashboard (March 2026)", "url": "https://www.unocha.org/publications/report/democratic-republic-congo/democratic-republic-congo-humanitarian-dashboard-march-2026"}
+  ],
+  "topics": ["science", "mystery", "history"],
+  "related_hint": ["ash-dykes-congo-sangha-river", "who-is-ash-dykes", "north-sentinel-island"]
+}

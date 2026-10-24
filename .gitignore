@@ -1,0 +1,4 @@
+dist/
+raw-thumbs/
+node_modules/
+.DS_Store

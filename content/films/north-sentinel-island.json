@@ -1,0 +1,64 @@
+{
+  "id": "4aPeeVMwx7o",
+  "slug": "north-sentinel-island",
+  "h1": "North Sentinel Island and the Sentinelese: The Documentary",
+  "seo_title": "North Sentinel Island and the Sentinelese | Documentary",
+  "meta_description": "Why outsiders are banned from North Sentinel Island: the Sentinelese, 150 years of contact attempts, the 2004 uplift, John Allen Chau and India's 5 km law.",
+  "dek": "The documented history of North Sentinel Island in India's Andaman Islands, and of the Sentinelese, who have turned away outsiders through every recorded attempt to reach them.",
+  "sections": [
+    {
+      "heading": "A forested island ringed by reef",
+      "paragraphs": [
+        "North Sentinel lies in the Bay of Bengal, about 50 km west of Port Blair, the Andaman Islands' capital, now officially named Sri Vijaya Puram. It covers 59.67 square kilometres, close to the land area of Manhattan, and is almost entirely dense tropical forest behind a coral reef with no natural harbour. Its people are known to outsiders as the Sentinelese, a label taken from the island. What they call themselves is unknown, and no outsider has understood their language.",
+        "Outsiders have tried to reach them for nearly 150 years. In January 1880 the British officer Maurice Vidal Portman landed with an armed party and took an elderly couple and four children to Port Blair. The two adults died there; the children were taken back. From 1967 Indian anthropologists made regular gift trips, and on 4 January 1991 a team that included Madhumala Chattopadhyay watched islanders wade out unarmed to take coconuts. By the mid-1990s the trips had been wound down, partly over fear of disease."
+      ]
+    },
+    {
+      "heading": "Earthquake, intruders and arrests",
+      "paragraphs": [
+        "The magnitude 9.1 earthquake of 26 December 2004 pushed the island up by an estimated one to two metres, turning reef flats into dry land. Two days later a man on the beach aimed his bow at a Coast Guard helicopter: the islanders had survived. In 2006 two fishermen who drifted onto the reef were killed. In November 2018 the American missionary John Allen Chau, 26, made illegal attempts to land and was killed; his body was never recovered. In March 2025 Mykhailo Polyakov, a 24-year-old from Arizona, landed for about five minutes, left a coconut and a can of Diet Coke, and was arrested two days later. AFP reported in May 2026 that he received a 25-day sentence and a ₹15,000 fine."
+      ]
+    },
+    {
+      "heading": "Key facts",
+      "bullets": [
+        "Area: 59.67 km² (official figure).",
+        "Population: the 2011 census recorded 15 people and the 2001 census 39, both counted from boats. India's Home Ministry says the true number cannot be ascertained; most estimates fall between 50 and 150.",
+        "Protection: under a 1956 regulation the island and the sea for 5 km from the high-water mark form a tribal reserve. Simply entering can mean up to two years in prison.",
+        "Policy: often summed up as \"eyes on, hands off\": watch by sea and air, never land.",
+        "Context: Survival International's October 2025 report counts at least 196 uncontacted peoples and groups in 10 countries, two of them in India."
+      ]
+    },
+    {
+      "heading": "Why contact could be deadly",
+      "paragraphs": [
+        "The neighbouring islands show the risk. There were several thousand Great Andamanese when the British penal colony was founded in 1858; by 1961 there were 19. The Onge fell from 672 in 1901 to 101 in the 2011 census, and measles reached the Jarawa in 1999 and 2006. Survival International argues the Sentinelese have made their choice to stay apart; a 2015 paper in Science argued carefully planned contact might be safer than an accidental one. India's policy has not changed."
+      ]
+    },
+    {
+      "heading": "Myths and numbers",
+      "paragraphs": [
+        "There is no evidence the Sentinelese are cannibals, and they are not a \"Stone Age\" people: their arrows are tipped with iron salvaged from wrecks. Children have been seen on visits as recently as 2014, so the low census counts do not show a dying population. The protected zone is 5 km, not \"5 nautical miles\", and the uplift figure is an estimate; at least 30 cm was measured."
+      ]
+    }
+  ],
+  "sources": [
+    {"label": "Census of India 2011, District Census Handbook, Andaman & Nicobar Islands (archived)", "url": "https://web.archive.org/web/20150801173328/http://www.censusindia.gov.in/2011census/dchb/3500_PART_B_DCHB_ANDAMAN%20%26%20NICOBAR%20ISLANDS.pdf"},
+    {"label": "A&N Islands Dept. of Environment & Forests: Forest Statistics 2013 (archived)", "url": "https://web.archive.org/web/20161220191118/http://ls1.and.nic.in/doef/WebPages/ForestStatistics2013.pdf"},
+    {"label": "Ministry of Home Affairs: Rajya Sabha reply, 27 Dec 2017", "url": "https://www.mha.gov.in/MHA1/Par2017/pdfs/par2017-pdfs/rs-27122017/1029.pdf"},
+    {"label": "Andaman and Nicobar Islands (Protection of Aboriginal Tribes) Regulation, 1956 (India Code)", "url": "https://www.indiacode.nic.in/handle/123456789/19311"},
+    {"label": "Paul, Justin & Chatterjee, Humanities & Social Sciences Communications (2024)", "url": "https://www.nature.com/articles/s41599-024-03994-3"},
+    {"label": "Meltzner et al., Journal of Geophysical Research (2006): uplift and subsidence in the 2004 earthquake", "url": "https://thesis.caltech.edu/5900/4/Meltzner-Thesis-Ch2-All.pdf"},
+    {"label": "USGS: M9.1 Sumatra-Andaman earthquake poster, 26 Dec 2004", "url": "https://earthquake.usgs.gov/product/poster/20041226/us/1457989040172/poster.pdf"},
+    {"label": "Adam Goodheart, The American Scholar (2000)", "url": "https://theamericanscholar.org/the-last-island-of-the-savages/"},
+    {"label": "Portman, A History of Our Relations with the Andamanese (1899)", "url": null},
+    {"label": "National Geographic: Madhumala Chattopadhyay (7 Dec 2018)", "url": "https://www.nationalgeographic.com/culture/article/first-woman-chattopadhyay-contact-sentinelese-andaman"},
+    {"label": "Associated Press via NBC News: John Allen Chau (Nov 2018)", "url": "https://www.nbcnews.com/news/world/american-killed-isolated-tribe-india-s-north-sentinel-island-police-n938826"},
+    {"label": "AFP via France 24: India's last 'uncontacted' tribe (18 May 2026)", "url": "https://www.france24.com/en/live-news/20260518-encroaching-world-threatens-india-s-last-uncontacted-tribe"},
+    {"label": "Newsweek: interview with Mykhailo Polyakov (29 May 2026)", "url": "https://www.newsweek.com/he-snuck-onto-a-forbidden-island-for-youtube-footageand-hed-do-it-again-12007435"},
+    {"label": "Survival International: Uncontacted Indigenous Peoples report (Oct 2025)", "url": "https://assets.survivalinternational.org/documents/2788/original-b24f435d70d2e27876b53452d615b1a4.pdf"},
+    {"label": "Arizona State University on Walker & Hill, Science (2015)", "url": "https://news.asu.edu/content/controlled-contact-key-protecting-isolated-tribes"}
+  ],
+  "topics": ["people", "history", "mystery"],
+  "related_hint": []
+}
