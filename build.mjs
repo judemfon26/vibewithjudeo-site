@@ -315,8 +315,8 @@ ${PLAYER_JS}`;
 }
 
 // Simple content pages
-function simple(urlPath, { title, description, label, h1, html, after = "" }) {
-  add(urlPath, layout({ urlPath, title, description, body: `<div class="wrap narrow prose page-head">
+function simple(urlPath, { title, description, label, h1, html, after = "", noindex = false }) {
+  add(urlPath, layout({ urlPath, title, description, extraHead: noindex ? '<meta name="robots" content="noindex">\n' : "", body: `<div class="wrap narrow prose page-head">
 <p class="label">${esc(label)}</p>
 <h1>${esc(h1)}</h1>
 ${html}
@@ -341,6 +341,24 @@ simple("/case-files/", {
 <p>Enter your email below. We send a short message asking you to confirm it; once you do, the case files are yours. Tick the box if you also want the weekly Case Files email when a new film is out. You can unsubscribe from any email in one click.</p>
 ${signup("../", { heading: "Send me the case files", id: "cf-signup" })}
 <p class="small">The signup is handled by Kit, our email provider. Read the <a href="../privacy/">site privacy notice</a> and the <a href="${site.caseFilesPrivacyUrl}" rel="noopener">Case Files privacy notice</a>.</p>`,
+});
+
+// Where Kit sends people after they confirm the site-wide Case Files signup (form 10081044). Not in the sitemap.
+simple("/case-files/confirmed/", {
+  title: "You're In: Download Your Free Case Files · Vibe with Judeo",
+  description: "Thanks for confirming your email. Download the free Vibe with Judeo Case Files here: Amelia Earhart, the Edmund Fitzgerald, the SS Richard Montgomery and the Titanic.",
+  label: "The Case Files · free",
+  h1: "You're in. Here are your case files",
+  noindex: true,
+  html: `<p class="lede">Thanks for confirming your email. Every free case file we have published is below. Tap one to open the PDF, then save it to keep it.</p>
+<ul>
+<li><a href="../pdf/casefile-amelia-earhart.pdf">Amelia Earhart and the Taraia Object</a> (PDF, 11 pages). Goes with <a href="../../films/amelia-earhart-nikumaroro-lagoon-evidence/">the evidence for the lagoon</a> and <a href="../../films/amelia-earhart-taraia-object-expedition/">what the expedition found</a>.</li>
+<li><a href="../pdf/casefile-edmund-fitzgerald.pdf">The Edmund Fitzgerald</a> (PDF, 12 pages).</li>
+<li><a href="../pdf/casefile-ss-richard-montgomery.pdf">The SS Richard Montgomery</a> (PDF, 11 pages).</li>
+<li><a href="../pdf/casefile-titanic-ru.pdf" hreflang="ru">The Titanic, in Russian</a> (PDF, 11 pages).</li>
+</ul>
+<p>New case files are added as new films come out. If you ticked the weekly box, we'll email you when one is ready; if not, check this shelf any time at <a href="../">vibewithjudeo.com/case-files</a>.</p>
+<p class="small">Didn't mean to sign up? Every email from us has a one-click unsubscribe link. Read the <a href="${site.caseFilesPrivacyUrl}" rel="noopener">Case Files privacy notice</a>.</p>`,
 });
 
 simple("/shop/", {
@@ -437,7 +455,7 @@ fs.writeFileSync(path.join(DIST, "CNAME"), new URL(SITE_URL).host + "\n");
 fs.writeFileSync(path.join(DIST, ".nojekyll"), "");
 fs.writeFileSync(path.join(DIST, "robots.txt"), `User-agent: *\nAllow: /\n\nSitemap: ${abs("/sitemap.xml")}\n`);
 
-const sm = pages.filter((p) => !p.urlPath.endsWith(".html")).map((p) => {
+const sm = pages.filter((p) => !p.urlPath.endsWith(".html") && !p.html.includes('<meta name="robots" content="noindex">')).map((p) => {
   const f = films.find((x) => `/films/${x.slug}/` === p.urlPath);
   const lastmod = f ? isoDate(f.yt.upload_date) : BUILD_DATE;
   const video = f ? `
